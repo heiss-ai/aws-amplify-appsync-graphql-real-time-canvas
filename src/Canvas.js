@@ -25,13 +25,13 @@ function rand() {
 class Demo extends Component {
   state = {
     brushColor: rand(),
-    canvasHeight: 350,
-    canvasWidth: 380,
+    canvasHeight: 1000,
+    canvasWidth: 1000,
     brushRadius: 4,
     lazyRadius: 8
   }
   lineLength = 0
-  id = '123'
+  id = '9109'
   clientId = uuid()
   canvasInfo = 'tempcanvas'
   componentDidMount() {
